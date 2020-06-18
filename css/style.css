@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.top-bar-link{
+    padding-right: 10px;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+    text-decoration: none;
+}
+
+.top-bar-link:hover{
+    text-decoration: underline;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: .70fr .9fr .5fr 1fr;
+    grid-column-gap: .25em;
+    float: right;
+    align-items: center;
+    width: auto;
+    margin: 0.18% 2% 0 0;
+}
+
+#googleapps{
+    width:16px;
+}
+
+#signin{
+    padding: .55em 1em .55em .95em;
+    background-color: rgb(65, 133, 211);
+    color: rgb(255, 255, 255);
+    border-style: none;
+    border-radius: 2.5px;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+#search{
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    border: 1px solid #dfe1e5;
+}
+
+[type=search]{
+    border:none;
+    outline: none;
+    width: 487px;
+    height: 44px; 
+}
+
+.main-container-buttons{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    width: 140px;
+    height: 36px;
+    outline: none;
+}
+
+.main-container{
+    display: grid;
+    
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3,auto);
+    grid-row-gap: 20px;
+    justify-items:center;
+}
+
+.main-container-search{
+    margin-top: 100px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    grid-row-gap: 20px;
+    justify-items:center;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer li a {
+    margin-top: 0.8em;
+    padding: 0.8em;
+    color: #222;
+    text-decoration: none;
+    font-size: 0.9rm;
+}
+
+.left{
+    background-color: #f2f2f2;
+    margin-left: -50px;
+}
